@@ -1,19 +1,22 @@
 # How to use to different account of github for personal use and profession use
 
-# Steps to push code for secondary account:
+## Steps to push code for secondary account:
 
-## For first time
+### For first time
 
-- git init
-- git config user.name "your_username"
-- git config user.email "your_email"
-- git add .
-- git commit -m "message"
-- git add origin git@github:something
-- git push origin main
+1. git init
+2. git config user.name "your_username"
+3. git config user.email "your_email"
+4. git add .
+5. git commit -m "message"
 
-## After first
+NOTE: origin url must modify from original.
 
-- git add .
-- git commit -m "message"
-- git push origin main
+6. git add origin git@github-yourSSHhost:username/repo.git ( git remote add origin git@github.com-work:username/repo.git )
+7. git push origin main
+
+### After first
+
+1. git add .
+2. git commit -m "message"
+3. git push origin main
