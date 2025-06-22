@@ -6,12 +6,14 @@
 
 1. git init
 2. git add .
-3. git commit -m "message"
+3. git config user.name "your_username"
+4. git config user.email "your_email"
+5. git commit -m "message"
 
-NOTE: Your host must be like "github.com-work" in ~/.ssh/config for secondary account then do modify the origin url.
+NOTE: Your host must be like "github.com-work" in ~/.ssh/config for secondary account then modify the origin url.
 
 6. git remote add origin git@github.com-work:username/repo.git ( git remote add origin git@github.com-work:username/repo.git = for this case )
-7. git push -u origin main
+7. git push -u origin master
 
 ### After first
 
