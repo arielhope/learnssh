@@ -2,6 +2,14 @@
 
 ## Steps to push code for Secondary account:
 
+## Generate ssh key
+
+```bash
+ssh-keygen -t ed25519 -C "email_address"
+```
+
+And then add to ssh agent. For more see GitHub guide.
+
 ### For first time
 
 1. git init
